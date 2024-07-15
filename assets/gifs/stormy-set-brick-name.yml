@@ -1,0 +1,289 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/hicham
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 122
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 45
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Stormy
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1190
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 30
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1394
+    content: "\e[H\e[2J\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K"
+  - delay: 1171
+    content: s
+  - delay: 5
+    content: "\b\e[4ms\e[24m\b\e[4ms\e[24m\e[90mtormy get-brick-info\e[39m\e[20D"
+  - delay: 285
+    content: "\b\e[4ms\e[39m\e[4mt\e[24m\b\b\e[24m\e[1m\e[31ms\e[24m\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 131
+    content: "\b\b\e[1m\e[31ms\e[1m\e[31mt\e[1m\e[31mo\e[0m\e[39m"
+  - delay: 113
+    content: "\b\e[1m\e[31mo\e[1m\e[31mr\e[0m\e[39m"
+  - delay: 135
+    content: "\b\e[1m\e[31mr\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 832
+    content: "\e[39my\e[39m \e[39mg\e[39me\e[39mt\e[39m-\e[39mb\e[39mr\e[39mi\e[39mc\e[39mk\e[39m-\e[39mi\e[39mn\e[39mf\e[39mo\e[21D\e[0m\e[32ms\e[0m\e[32mt\e[0m\e[32mo\e[0m\e[32mr\e[0m\e[32mm\e[32my\e[39m\e[15C"
+  - delay: 1821
+    content: ' '
+  - delay: 1710
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;stormy get-brick-info\a\e]1;stormy\a"
+  - delay: 192
+    content: "\U0001F50E Looking for the NXT brick\r\n"
+  - delay: 264
+    content: "\e[1;36m\U0001F916 Brick Information\e[0m\r\n"
+  - delay: 12
+    content: "\e[34m╭───────────────────────────┬───────────────────╮\e[0m\r\n\e[34m│\e[0m\e[1m \e[0m\e[1mProperty                 \e[0m\e[1m \e[0m\e[34m│\e[0m\e[1m \e[0m\e[1mvalue            \e[0m\e[1m \e[0m\e[34m│\e[0m\r\n\e[34m├───────────────────────────┼───────────────────┤\e[0m\r\n\e[34m│\e[0m Brick name                \e[34m│\e[0m Lego              \e[34m│\e[0m\r\n\e[34m│\e[0m Brick mac addr            \e[34m│\e[0m xx:xx:xx:xx:xx:xx \e[34m│\e[0m\r\n\e[34m│\e[0m Bluetooth signal strength \e[34m│\e[0m (0, 0, 0, 0)      \e[34m│\e[0m\r\n\e[34m│\e[0m Free memory               \e[34m│\e[0m 10380             \e[34m│\e[0m\r\n\e[34m│\e[0m Protocol version          \e[34m│\e[0m 1.124             \e[34m│\e[0m\r\n\e[34m│\e[0m Firmware version          \e[34m│\e[0m 1.28              \e[34m│\e[0m\r\n\e[34m│\e[0m Battery charge level      \e[34m│\e[0m 6716 mv           \e[34m│\e[0m\r\n\e[34m╰───────────────────────────┴───────────────────╯\e[0m\r\n"
+  - delay: 31
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 17
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 4449
+    content: "stormy get-brick-info \e[22D\e[32ms\e[32mt\e[32mo\e[32mr\e[32mm\e[32my\e[39m\e[16C"
+  - delay: 2450
+    content: '|'
+  - delay: 427
+    content: ' '
+  - delay: 1011
+    content: g
+  - delay: 5
+    content: "\b\e[1m\e[31mg\e[0m\e[39m"
+  - delay: 154
+    content: "\b\e[1m\e[31mg\e[1m\e[31mr\e[0m\e[39m"
+  - delay: 179
+    content: "\b\e[1m\e[31mr\e[1m\e[31me\e[0m\e[39m"
+  - delay: 90
+    content: "\b\e[1m\e[31me\e[1m\e[31mp\e[0m\e[39m\b\b\b\b\e[0m\e[32mg\e[0m\e[32mr\e[0m\e[32me\e[0m\e[32mp\e[39m"
+  - delay: 110
+    content: "\b\e[32mp\e[32m \e[39m\b\b\e[32mp\e[39m\e[39m "
+  - delay: 197
+    content: '-'
+  - delay: 405
+    content: i
+  - delay: 113
+    content: ' '
+  - delay: 1259
+    content: 'n'
+  - delay: 92
+    content: a
+  - delay: 114
+    content: m
+  - delay: 89
+    content: e
+  - delay: 606
+    content: "\e[?1l\e>\e[?2004l"
+  - delay: 5
+    content: "\r\r\n\e]2;stormy get-brick-info | grep --color=auto  -i name\a\e]1;stormy\a"
+  - delay: 461
+    content: "│ Brick \e[01;31m\e[Kname\e[m\e[K                │ Lego              │\r\n"
+  - delay: 38
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 17
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1747
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 28
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1228
+    content: "s\b\e[4ms\e[24m\b\e[4ms\e[24m\e[90mtormy get-brick-info | grep -i name\e[39m\e[35D"
+  - delay: 490
+    content: "\b\e[4ms\e[39m\e[4mt\e[24m\b\b\e[24m\e[1m\e[31ms\e[24m\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 918
+    content: "\b\b\e[1m\e[31ms\e[1m\e[31mt\e[1m\e[31mo\e[0m\e[39m"
+  - delay: 294
+    content: "\b\e[1m\e[31mo\e[1m\e[31mr\e[0m\e[39m"
+  - delay: 179
+    content: "\b\e[1m\e[31mr\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 697
+    content: "\b\e[1m\e[31mm\e[1m\e[31my\e[0m\e[39m\b\b\b\b\b\b\e[0m\e[32ms\e[0m\e[32mt\e[0m\e[32mo\e[0m\e[32mr\e[0m\e[32mm\e[0m\e[32my\e[39m"
+  - delay: 201
+    content: "\b\e[32my\e[32m \e[39m\b\b\e[32my\e[39m\e[39m "
+  - delay: 292
+    content: "\e[39ms\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[28D\b\e[4ms\e[24m\e[90met-brick-name Lego\e[39m\e[18D"
+  - delay: 175
+    content: "\b\e[4ms\e[39m\e[4me\e[24m\b\b\e[24ms\e[24me"
+  - delay: 402
+    content: "\e[39mt\e[39m-\e[39mb\e[39mr\e[39mi\e[39mc\e[39mk\e[39m-\e[39mn\e[39ma\e[39mm\e[39me\e[39m \e[39mL\e[39me\e[39mg\e[39mo"
+  - delay: 317
+    content: "\b \b"
+  - delay: 5
+    content: "\e[90mo\e[39m\b"
+  - delay: 129
+    content: "\b \e[39m \b\b\e[90mgo\e[39m\b\b"
+  - delay: 131
+    content: "\b \e[39m \e[39m \b\b\b\e[90mego\e[39m\b\b\b"
+  - delay: 109
+    content: "\b \e[39m \e[39m \e[39m \b\b\b\b\e[90mLego\e[39m\b\b\b\b"
+  - delay: 1393
+    content: "\e[39mS\e[39m \e[39m \e[39m \b\b\b"
+  - delay: 246
+    content: t
+  - delay: 203
+    content: o
+  - delay: 112
+    content: r
+  - delay: 113
+    content: m
+  - delay: 293
+    content: 'y'
+  - delay: 855
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;stormy set-brick-name Stormy\a\e]1;stormy\a"
+  - delay: 188
+    content: "\U0001F50E Looking for the NXT brick\r\n"
+  - delay: 264
+    content: "\e[1;32m\U0001F916 Updated the NXT Brick name to \e[0m\e[1;32m<\e[0m\e[1;95mStormy\e[0m\e[1;32m>\e[0m\r\n"
+  - delay: 34
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 16
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1607
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 18
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 376
+    content: "stormy set-brick-name Stormy\e[28D\e[32ms\e[32mt\e[32mo\e[32mr\e[32mm\e[32my\e[39m\e[22C"
+  - delay: 221
+    content: "\e[21Dg\e[9Cinfo | grep -i name"
+  - delay: 6
+    content: "\e[12D\e[32mg\e[32mr\e[32me\e[32mp\e[39m\e[8C"
+  - delay: 3753
+    content: "\e[14D  \e[39m \e[39m \e[39m \e[39m         \e[14D"
+  - delay: 697
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;stormy get-brick-info\a\e]1;stormy\a"
+  - delay: 194
+    content: "\U0001F50E Looking for the NXT brick\r\n"
+  - delay: 263
+    content: "\e[1;36m\U0001F916 Brick Information\e[0m\r\n"
+  - delay: 11
+    content: "\e[34m╭───────────────────────────┬───────────────────╮\e[0m\r\n\e[34m│\e[0m\e[1m \e[0m\e[1mProperty                 \e[0m\e[1m \e[0m\e[34m│\e[0m\e[1m \e[0m\e[1mvalue            \e[0m\e[1m \e[0m\e[34m│\e[0m\r\n\e[34m├───────────────────────────┼───────────────────┤\e[0m\r\n\e[34m│\e[0m Brick name                \e[34m│\e[0m Stormy            \e[34m│\e[0m\r\n\e[34m│\e[0m Brick mac addr            \e[34m│\e[0m xx:xx:xx:xx:xx:xx \e[34m│\e[0m\r\n\e[34m│\e[0m Bluetooth signal strength \e[34m│\e[0m (0, 0, 0, 0)      \e[34m│\e[0m\r\n\e[34m│\e[0m Free memory               \e[34m│\e[0m 10380             \e[34m│\e[0m\r\n\e[34m│\e[0m Protocol version          \e[34m│\e[0m 1.124             \e[34m│\e[0m\r\n\e[34m│\e[0m Firmware version          \e[34m│\e[0m 1.28              \e[34m│\e[0m\r\n\e[34m│\e[0m Battery charge level      \e[34m│\e[0m 6716 mv           \e[34m│\e[0m\r\n\e[34m╰───────────────────────────┴───────────────────╯\e[0m\r\n"
+  - delay: 30
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 19
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1456
+    content: "stormy get-brick-info \e[22D\e[32ms\e[32mt\e[32mo\e[32mr\e[32mm\e[32my\e[39m\e[16C"
+  - delay: 202
+    content: "\e[15Ds\e[9Cname Stormy"
+  - delay: 673
+    content: "\e[21Dg\e[9Cinfo | grep -i name"
+  - delay: 5
+    content: "\e[12D\e[32mg\e[32mr\e[32me\e[32mp\e[39m\e[8C"
+  - delay: 649
+    content: "\e[?1l\e>\e[?2004l"
+  - delay: 5
+    content: "\r\r\n\e]2;stormy get-brick-info | grep --color=auto  -i name\a\e]1;stormy\a"
+  - delay: 469
+    content: "│ Brick \e[01;31m\e[Kname\e[m\e[K                │ Stormy            │\r\n"
+  - delay: 42
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                         \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 16
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 5942
+    content: "\e[?2004l\r\r\n"

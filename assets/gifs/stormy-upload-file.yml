@@ -1,0 +1,395 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/hicham
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 112
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 45
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Stormy
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1263
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 21
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 894
+    content: "\e[H\e[2J\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K"
+  - delay: 586
+    content: s
+  - delay: 7
+    content: "\b\e[4ms\e[24m\b\e[4ms\e[24m\e[90mtormy list-brick-files | grep -i hello\e[39m\e[38D"
+  - delay: 264
+    content: "\b\e[4ms\e[39m\e[4mt\e[24m"
+  - delay: 6
+    content: "\b\b\e[24m\e[1m\e[31ms\e[24m\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 149
+    content: "\b\b\e[1m\e[31ms\e[1m\e[31mt\e[1m\e[31mo\e[0m\e[39m"
+  - delay: 114
+    content: "\b\e[1m\e[31mo\e[1m\e[31mr\e[0m\e[39m"
+  - delay: 2159
+    content: "\e[39mm\e[39my\e[39m \e[39ml\e[39mi\e[39ms\e[39mt\e[39m-\e[39mb\e[39mr\e[39mi\e[39mc\e[39mk\e[39m-\e[39mf\e[39mi\e[39ml\e[39me\e[39ms\e[39m \e[39m|\e[39m \e[39mg\e[39mr\e[39me\e[39mp\e[39m \e[39m-\e[39mi\e[39m \e[39mh\e[39me\e[39ml\e[39ml\e[39mo"
+  - delay: 23
+    content: "\e[39D\e[0m\e[32ms\e[0m\e[32mt\e[0m\e[32mo\e[0m\e[32mr\e[32mm\e[32my\e[39m\e[20C\e[32mg\e[32mr\e[32me\e[32mp\e[39m\e[4C\e[4mh\e[4me\e[4ml\e[4ml\e[4mo\e[24m"
+  - delay: 2097
+    content: "\e[?1l\e>\e[?2004l"
+  - delay: 23
+    content: "\b\b\b\b\b\e[24mh\e[24me\e[24ml\e[24ml\e[24mo\r\r\n\e]2;stormy list-brick-files | grep --color=auto  -i hello\a\e]1;stormy\a"
+  - delay: 571
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 17
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;31m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2079
+    content: s
+  - delay: 5
+    content: "\b\e[4ms\e[24m\b\e[4ms\e[24m\e[90mtormy list-brick-files | grep -i hello\e[39m\e[38D"
+  - delay: 286
+    content: "\b\e[4ms\e[39m\e[4mt\e[24m"
+  - delay: 8
+    content: "\b\b\e[24m\e[1m\e[31ms\e[24m\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 534
+    content: "\b\b\e[1m\e[31ms\e[1m\e[31mt\e[1m\e[31mo\e[0m\e[39m"
+  - delay: 223
+    content: "\b\e[1m\e[31mo\e[1m\e[31mr\e[0m\e[39m"
+  - delay: 115
+    content: "\b\e[1m\e[31mr\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 294
+    content: "\b\e[1m\e[31mm\e[1m\e[31my\e[0m\e[39m"
+  - delay: 7
+    content: "\b\b\b\b\b\b\e[0m\e[32ms\e[0m\e[32mt\e[0m\e[32mo\e[0m\e[32mr\e[0m\e[32mm\e[0m\e[32my\e[39m"
+  - delay: 149
+    content: "\b\e[32my\e[32m \e[39m"
+  - delay: 8
+    content: "\b\b\e[32my\e[39m\e[39m "
+  - delay: 328
+    content: "\e[39mu\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[31D\e[90mpload-file /tmp/test.log\e[39m\e[24D"
+  - delay: 153
+    content: "\e[39mp"
+  - delay: 225
+    content: "\e[39ml"
+  - delay: 450
+    content: "\e[39mo\e[39ma\e[39md\e[39m-\e[39mf\e[39mi\e[39ml\e[39me\e[39m \e[39m/\e[39mt\e[39mm\e[39mp\e[39m/\e[39mt\e[39me\e[39ms\e[39mt\e[39m.\e[39ml\e[39mo\e[39mg"
+  - delay: 14
+    content: "\e[13D\e[4m/\e[4mt\e[4mm\e[4mp\e[4m/\e[4mt\e[4me\e[4ms\e[4mt\e[4m.\e[4ml\e[4mo\e[4mg\e[24m"
+  - delay: 257
+    content: "\b\b\e[4mo\e[24m\e[24m \b\e[90mg\e[39m\b"
+  - delay: 496
+    content: "\b\b\e[4ml\e[24m\e[24m \e[39m \b\b"
+  - delay: 5
+    content: "\e[90mog\e[39m\b\b"
+  - delay: 28
+    content: "\b\b\e[4m.\e[24m\e[24m \e[39m \e[39m \b\b\b\e[90mlog\e[39m\b\b\b"
+  - delay: 19
+    content: "\b\b\e[4mt\e[24m\e[24m \e[39m \e[39m \e[39m \b\b\b\b\e[90m.log\e[39m\b\b\b\b"
+  - delay: 31
+    content: "\b\b\e[4ms\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \b\b\b\b\b\e[90mt.log\e[39m\b\b\b\b\b"
+  - delay: 29
+    content: "\b\b\e[4me\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \b\b\b\b\b\b"
+  - delay: 5
+    content: "\e[90mst.log\e[39m\b\b\b\b\b\b"
+  - delay: 26
+    content: "\b\b\e[4mt\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \b\b\b\b\b\b\b\e[90mest.log\e[39m\b\b\b\b\b\b\b"
+  - delay: 23
+    content: "\b\b\e[4m/\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[8D"
+  - delay: 5
+    content: "\e[90mtest.log\e[39m\e[8D"
+  - delay: 25
+    content: "\b\b\e[4mp\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[9D\e[90m/test.log\e[39m\e[9D"
+  - delay: 27
+    content: "\b\b\e[4mm\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[10D"
+  - delay: 6
+    content: "\e[90mp/test.log\e[39m\e[10D"
+  - delay: 23
+    content: "\b\b\e[4mt\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[11D\e[90mmp/test.log\e[39m\e[11D"
+  - delay: 28
+    content: "\b\b\e[4m/\e[24m\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[12D"
+  - delay: 5
+    content: "\e[90mtmp/test.log\e[39m\e[12D"
+  - delay: 23
+    content: "\b\e[24m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[13D\e[90m/tmp/test.log\e[39m\e[13D"
+  - delay: 1620
+    content: "\e[39mh\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[12D\b\e[4mh\e[24m"
+  - delay: 131
+    content: "\b\e[4mh\e[4me\e[24m"
+  - delay: 135
+    content: "\b\e[4me\e[4ml\e[24m"
+  - delay: 112
+    content: "\b\e[4ml\e[4ml\e[24m"
+  - delay: 1373
+    content: "\b\e[4ml\e[4mo\e[24m"
+  - delay: 360
+    content: "\b\e[4mo\e[4m.\e[24m"
+  - delay: 272
+    content: "\b\e[4m.\e[4mtxt\e[24m\e[1m \e[0m"
+  - delay: 3259
+    content: "\b\e[0m \b"
+  - delay: 10
+    content: "\e[?1l\e>\e[?2004l"
+  - delay: 9
+    content: "\r\r\n\e]2;stormy upload-file hello.txt\a\e]1;stormy\a"
+  - delay: 184
+    content: "\U0001F50E Looking for the NXT brick\r\n"
+  - delay: 265
+    content: "\U0001F4D6 Opening \e[1m<\e[0m\e[1;95mhello.txt\e[0m\e[1m>\e[0m on your local computer for read\r\n\U0001F4DD Opening \e[1m<\e[0m\e[1;95mhello.txt\e[0m\e[1m>\e[0m on your NXT Brick for write\r\n"
+  - delay: 10
+    content: "\U0001F6AA Closing the NXT Brick file\r\n"
+  - delay: 20
+    content: "\U0001F6AA Closing the local file\r\n\U0001F4D1 The File \e[1m<\e[0m\e[1;95mhello.txt\e[0m\e[1m>\e[0m was successfully copied into the NXT Brick\r\n"
+  - delay: 40
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 19
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2383
+    content: stormy upload-file hello.txt
+  - delay: 8
+    content: "\e[28D\e[32ms\e[32mt\e[32mo\e[32mr\e[32mm\e[32my\e[39m\e[13C\e[4mh\e[4me\e[4ml\e[4ml\e[4mo\e[4m.\e[4mt\e[4mx\e[4mt\e[24m"
+  - delay: 3258
+    content: "\e[?1l\e>\e[?2004l"
+  - delay: 9
+    content: "\r\r\n\e]2;stormy upload-file hello.txt\a\e]1;stormy\a"
+  - delay: 183
+    content: "\U0001F50E Looking for the NXT brick\r\n"
+  - delay: 269
+    content: "\e[1;33m⚠ the file \e[0m\e[1;33m<\e[0m\e[1;95mhello.txt\e[0m\e[1;33m>\e[0m\e[1;33m already exist in the NXT Brick. if you choose to continue, the file in the NXT Brick will\e[0m\r\n\e[1;33mbe \e[0m\e[1;31mdeleted\e[0m\r\n\U0001F6A6 [1/3] - Do you want to proceed [Y/N]? "
+  - delay: 4889
+    content: 'Y'
+  - delay: 921
+    content: "\r\n"
+  - delay: 16
+    content: "\U0001F9FD the file \e[1m<\e[0m\e[1;95mhello.txt\e[0m\e[1m>\e[0m was deleted successfully from your NXT Brick\r\n\U0001F4D6 Opening \e[1m<\e[0m\e[1;95mhello.txt\e[0m\e[1m>\e[0m on your local computer for read\r\n\U0001F4DD Opening \e[1m<\e[0m\e[1;95mhello.txt\e[0m\e[1m>\e[0m on your NXT Brick for write\r\n"
+  - delay: 10
+    content: "\U0001F6AA Closing the NXT Brick file\r\n"
+  - delay: 20
+    content: "\U0001F6AA Closing the local file\r\n\U0001F4D1 The File \e[1m<\e[0m\e[1;95mhello.txt\e[0m\e[1m>\e[0m was successfully copied into the NXT Brick\r\n"
+  - delay: 48
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 22
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 3524
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 18
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 736
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 17
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 604
+    content: "s\b\e[4ms\e[24m\b\e[4ms\e[24m\e[90mtormy upload-file hello.txt\e[39m\e[27D"
+  - delay: 310
+    content: "\b\e[4ms\e[39m\e[4mt\e[24m"
+  - delay: 8
+    content: "\b\b\e[24m\e[1m\e[31ms\e[24m\e[1m\e[31mt\e[0m\e[39m"
+  - delay: 105
+    content: "\b\b\e[1m\e[31ms\e[1m\e[31mt\e[1m\e[31mo\e[0m\e[39m"
+  - delay: 112
+    content: "\b\e[1m\e[31mo\e[1m\e[31mr\e[0m\e[39m"
+  - delay: 114
+    content: "\b\e[1m\e[31mr\e[1m\e[31mm\e[0m\e[39m"
+  - delay: 292
+    content: "\b\e[1m\e[31mm\e[1m\e[31my\e[0m\e[39m"
+  - delay: 8
+    content: "\b\b\b\b\b\b\e[0m\e[32ms\e[0m\e[32mt\e[0m\e[32mo\e[0m\e[32mr\e[0m\e[32mm\e[0m\e[32my\e[39m"
+  - delay: 173
+    content: "\b\e[32my\e[32m \e[39m"
+  - delay: 5
+    content: "\b\b\e[32my\e[39m\e[39m "
+  - delay: 918
+    content: "\e[39ml\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[20D\e[90mist-brick-files | grep -i hello\e[39m\e[31D"
+  - delay: 198
+    content: "\e[39mi"
+  - delay: 109
+    content: "\e[39ms"
+  - delay: 1217
+    content: "\e[39mt\e[39m-\e[39mb\e[39mr\e[39mi\e[39mc\e[39mk\e[39m-\e[39mf\e[39mi\e[39ml\e[39me\e[39ms\e[39m \e[39m|\e[39m \e[39mg\e[39mr\e[39me\e[39mp\e[39m \e[39m-\e[39mi\e[39m \e[39mh\e[39me\e[39ml\e[39ml\e[39mo"
+  - delay: 22
+    content: "\e[13D\e[32mg\e[32mr\e[32me\e[32mp\e[39m\e[4C\e[4mh\e[4me\e[4ml\e[4ml\e[4mo\e[24m"
+  - delay: 409
+    content: "\e[?1l\e>\e[?2004l"
+  - delay: 21
+    content: "\b\b\b\b\b\e[24mh\e[24me\e[24ml\e[24ml\e[24mo\r\r\n\e]2;stormy list-brick-files | grep --color=auto  -i hello\a\e]1;stormy\a"
+  - delay: 509
+    content: "│ \e[01;31m\e[Khello\e[m\e[K.txt       │ ASCII text file using carriage return/line feed (CR/LF, Windows) end-of-line convent… │ 12 │\r\n"
+  - delay: 49
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 20
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 808
+    content: stormy list-brick-files | grep -i hello
+  - delay: 16
+    content: "\e[39D\e[32ms\e[32mt\e[32mo\e[32mr\e[32mm\e[32my\e[39m\e[20C\e[32mg\e[32mr\e[32me\e[32mp\e[39m\e[4C\e[4mh\e[4me\e[4ml\e[4ml\e[4mo\e[24m"
+  - delay: 347
+    content: "\b\b\e[4ml\e[24m\e[24m \b"
+  - delay: 10
+    content: "\e[90mo\e[39m\b"
+  - delay: 124
+    content: "\b\b\e[4ml\e[24m\e[24m \e[39m \b\b"
+  - delay: 6
+    content: "\e[90mlo\e[39m\b\b"
+  - delay: 150
+    content: "\b\b\e[4me\e[24m\e[24m \e[39m \e[39m \b\b\b"
+  - delay: 9
+    content: "\e[90mllo\e[39m\b\b\b"
+  - delay: 105
+    content: "\b\b\e[4mh\e[24m\e[24m \e[39m \e[39m \e[39m \b\b\b\b"
+  - delay: 9
+    content: "\e[90mello\e[39m\b\b\b\b"
+  - delay: 491
+    content: "\b\e[24m \e[39m \e[39m \e[39m \e[39m \b\b\b\b\b"
+  - delay: 7
+    content: "\e[90mhello\e[39m\b\b\b\b\b"
+  - delay: 25
+    content: "\e[39m \e[39m \e[39m \e[39m \e[39m \b\b\b\b\b\b"
+  - delay: 6
+    content: "\e[90m hello\e[39m\b\b\b\b\b\b"
+  - delay: 18
+    content: "\b \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \b\b\b\b\b\b\b"
+  - delay: 6
+    content: "\e[90mi hello\e[39m\b\b\b\b\b\b\b"
+  - delay: 25
+    content: "\b \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[8D"
+  - delay: 5
+    content: "\e[90m-i hello\e[39m\e[8D"
+  - delay: 26
+    content: "\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[9D"
+  - delay: 6
+    content: "\e[90m -i hello\e[39m\e[9D"
+  - delay: 26
+    content: "\b\b\e[32me\e[39m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[10D"
+  - delay: 6
+    content: "\b\b\b\e[1m\e[31mg\e[1m\e[31mr\e[1m\e[31me\e[0m\e[39m\e[90mp -i hello\e[39m\e[10D"
+  - delay: 22
+    content: "\b\b\e[1m\e[31mr\e[0m\e[39m\e[0m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[11D"
+  - delay: 6
+    content: "\e[90mep -i hello\e[39m\e[11D"
+  - delay: 28
+    content: "\b\b\e[1m\e[31mg\e[0m\e[39m\e[0m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[12D"
+  - delay: 7
+    content: "\e[90mrep -i hello\e[39m\e[12D"
+  - delay: 20
+    content: "\b\e[0m\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[13D\e[90mgrep -i hello\e[39m\e[13D"
+  - delay: 133
+    content: "\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[14D"
+  - delay: 5
+    content: "\e[90m grep -i hello\e[39m\e[14D"
+  - delay: 178
+    content: "\b \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[15D\e[90m| grep -i hello\e[39m\e[15D"
+  - delay: 513
+    content: "\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[16D\e[90m | grep -i hello\e[39m\e[16D"
+  - delay: 331
+    content: "\e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[39m \e[16D\e[?1l\e>\e[?2004l"
+  - delay: 9
+    content: "\r\r\n\e]2;stormy list-brick-files\a\e]1;stormy\a"
+  - delay: 184
+    content: "\U0001F50E Looking for the NXT brick\r\n"
+  - delay: 298
+    content: "\e[1;36m\U0001F4D1 Files Information\e[0m\r\n"
+  - delay: 50
+    content: "\e[34m╭─────────────────┬───────────────────────────────────────────────────────────────────────────────────────┬────╮\e[0m\r\n\e[34m│\e[0m\e[1m \e[0m\e[1mName           \e[0m\e[1m \e[0m\e[34m│\e[0m\e[1m \e[0m\e[1mType                                                                                 \e[0m\e[1m \e[0m\e[34m│\e[0m\e[1m \e[0m\e[1mS…\e[0m\e[1m \e[0m\e[34m│\e[0m\r\n\e[34m├─────────────────┼───────────────────────────────────────────────────────────────────────────────────────┼────┤\e[0m\r\n\e[34m│\e[0m ! Attention.rso \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 8… \e[34m│\e[0m\r\n\e[34m│\e[0m ! Click.rso     \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m ! Startup.rso   \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 4… \e[34m│\e[0m\r\n\e[34m│\e[0m /tmp/test.log   \e[34m│\e[0m ASCII text file, created by the NXT data logging functionality                        \e[34m│\e[0m 12 \e[34m│\e[0m\r\n\e[34m│\e[0m Blue.rso        \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m Bras01.rxe      \e[34m│\e[0m Executable program                                                                    \e[34m│\e[0m 9… \e[34m│\e[0m\r\n\e[34m│\e[0m Game Over.rso   \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 9… \e[34m│\e[0m\r\n\e[34m│\e[0m Green.rso       \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m Looking Left.r… \e[34m│\e[0m Image files used with the NXTDrawPicture syscall method in .RXE programs              \e[34m│\e[0m 4… \e[34m│\e[0m\r\n\e[34m│\e[0m Looking Right.… \e[34m│\e[0m Image files used with the NXTDrawPicture syscall method in .RXE programs              \e[34m│\e[0m 4… \e[34m│\e[0m\r\n\e[34m│\e[0m NVConfig.sys    \e[34m│\e[0m Internal firmware file                                                                \e[34m│\e[0m 6  \e[34m│\e[0m\r\n\e[34m│\e[0m Pieds01.rxe     \e[34m│\e[0m Executable program                                                                    \e[34m│\e[0m 9… \e[34m│\e[0m\r\n\e[34m│\e[0m Please.rso      \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m Program.tmp     \e[34m│\e[0m Unknown file type                                                                     \e[34m│\e[0m 13 \e[34m│\e[0m\r\n\e[34m│\e[0m RPGReader.sys   \e[34m│\e[0m Internal firmware file                                                                \e[34m│\e[0m 5… \e[34m│\e[0m\r\n\e[34m│\e[0m Red.rso         \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m Sans titre-1.r… \e[34m│\e[0m Executable program                                                                    \e[34m│\e[0m 9… \e[34m│\e[0m\r\n\e[34m│\e[0m Sorry.rso       \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m Thank You.rso   \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 4… \e[34m│\e[0m\r\n\e[34m│\e[0m Try-Color.rtm   \e[34m│\e[0m Built-in try me program                                                               \e[34m│\e[0m 4… \e[34m│\e[0m\r\n\e[34m│\e[0m Try-Light.rtm   \e[34m│\e[0m Built-in try me program                                                               \e[34m│\e[0m 6… \e[34m│\e[0m\r\n\e[34m│\e[0m Try-Motor.rtm   \e[34m│\e[0m Built-in try me program                                                               \e[34m│\e[0m 6… \e[34m│\e[0m\r\n\e[34m│\e[0m Try-Sound.rtm   \e[34m│\e[0m Built-in try me program                                                               \e[34m│\e[0m 6… \e[34m│\e[0m\r\n\e[34m│\e[0m Try-Touch.rtm   \e[34m│\e[0m Built-in try me program                                                               \e[34m│\e[0m 1… \e[34m│\e[0m\r\n\e[34m│\e[0m Try-Ultrasonic… \e[34m│\e[0m Built-in try me program                                                               \e[34m│\e[0m 1… \e[34m│\e[0m\r\n\e[34m│\e[0m Verte01.rxe     \e[34m│\e[0m Executable program                                                                    \e[34m│\e[0m 1… \e[34m│\e[0m\r\n\e[34m│\e[0m Woops.rso       \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m Yellow.rso      \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m Yes.rso         \e[34m│\e[0m Sound file                                                                            \e[34m│\e[0m 2… \e[34m│\e[0m\r\n\e[34m│\e[0m faceclosed.ric  \e[34m│\e[0m Image files used with the NXTDrawPicture syscall method in .RXE programs              \e[34m│\e[0m 3… \e[34m│\e[0m\r\n\e[34m│\e[0m faceopen.ric    \e[34m│\e[0m Image files used with the NXTDrawPicture syscall method in .RXE programs              \e[34m│\e[0m 3… \e[34m│\e[0m\r\n\e[34m│\e[0m hello.txt       \e[34m│\e[0m ASCII text file using carriage return/line feed (CR/LF, Windows) end-of-line convent… \e[34m│\e[0m 12 \e[34m│\e[0m\r\n\e[34m╰─────────────────┴───────────────────────────────────────────────────────────────────────────────────────┴────╯\e[0m\r\n"
+  - delay: 39
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                               \r \r\e]2;hicham@jarvis:~\a\e]1;~\a\e]7;file://jarvis/home/hicham\e\\"
+  - delay: 19
+    content: "\r\e[0m\e[27m\e[24m\e[J(lego-nxt) \e[01;32m➜  \e[36m~\e[00m \e[K\e[?1h\e=\e[?2004h"
+  - delay: 15187
+    content: "\e[?2004l\r\r\n"

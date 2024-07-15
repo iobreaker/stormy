@@ -861,3 +861,6 @@ FodyWeavers.xsd
 
 # Custom
 nosync/*
+build/*
+dist/*
+stormy.egg-info/*
