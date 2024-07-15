@@ -1,12 +1,11 @@
 # Stormy
 
-**<center>WIP</center>**
+<center>WIP</center>
 
 <br/><br/>
 <center>A simple and user-friendly CLI to interact with your Lego Mindstorms NXT 2.0 Brick</center>
 <br/><br/>
 
-[![nxt](assets/pictures/nxt.png)](https://www.lego.com/fr-fr/service/buildinginstructions/8547)
 
 <br/><br/>
 
